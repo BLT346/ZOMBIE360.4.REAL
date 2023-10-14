@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cx4r2dxs8piu"]
+
+[ext_resource type="Texture2D" uid="uid://c33j13lsiot3f" path="res://icon.svg" id="1_tfwny"]
+
+[node name="Dipstick" type="Node2D"]
+
+[node name="Dipstick Body" type="CharacterBody2D" parent="."]
+
+[node name="Dipstick Sprite" type="Sprite2D" parent="."]
+texture = ExtResource("1_tfwny")
